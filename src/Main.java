@@ -90,6 +90,7 @@ public class Main {
                     System.out.printf("La moneda (%s) no ha sido encontrada, intentalo nuevamente\n", base);
                     continue;
                 }
+                System.out.println("Ingresa el valor a convertir EJ: 200,90");
                 double value = read_valid_double(en);
                 print_conversion(base, target, value, api);
             }else if(option == 5){
